@@ -52,6 +52,9 @@ class Bridge(object):
             if model_type in ["abab6.5-chat"]:
                 self.btype["chat"] = const.MiniMax
 
+            if model_type in [const.COZE]:
+                self.btype["chat"] = const.COZE
+
             if conf().get("use_linkai") and conf().get("linkai_api_key"):
                 self.btype["chat"] = const.LINKAI
                 if not conf().get("voice_to_text") or conf().get("voice_to_text") in ["openai"]:

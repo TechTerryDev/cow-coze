@@ -15,7 +15,8 @@ GEMINI = "gemini"  # gemini-1.0-pro
 ZHIPU_AI = "glm-4"
 MOONSHOT = "moonshot"
 MiniMax = "minimax"
-
+COZE = "coze"
+DIFY = "dify"
 
 # model
 CLAUDE3 = "claude-3-opus-20240229"

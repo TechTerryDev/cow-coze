@@ -73,8 +73,6 @@ available_setting = {
     "xunfei_app_id": "",  # 讯飞应用ID
     "xunfei_api_key": "",  # 讯飞 API key
     "xunfei_api_secret": "",  # 讯飞 API secret
-    "xunfei_domain": "",  # 讯飞模型对应的domain参数，Spark4.0 Ultra为 4.0Ultra，其他模型详见: https://www.xfyun.cn/doc/spark/Web.html
-    "xunfei_spark_url": "",  # 讯飞模型对应的请求地址，Spark4.0 Ultra为 wss://spark-api.xf-yun.com/v4.0/chat，其他模型参考详见: https://www.xfyun.cn/doc/spark/Web.html
     # claude 配置
     "claude_api_cookie": "",
     "claude_uuid": "",
@@ -167,6 +165,7 @@ available_setting = {
     # 智谱AI 平台配置
     "zhipu_ai_api_key": "",
     "zhipu_ai_api_base": "https://open.bigmodel.cn/api/paas/v4",
+    # moonshot 平台配置
     "moonshot_api_key": "",
     "moonshot_base_url": "https://api.moonshot.cn/v1/chat/completions",
     # LinkAI平台配置
@@ -174,9 +173,15 @@ available_setting = {
     "linkai_api_key": "",
     "linkai_app_code": "",
     "linkai_api_base": "https://api.link-ai.tech",  # linkAI服务地址
+    # Minimax
     "Minimax_api_key": "",
     "Minimax_group_id": "",
     "Minimax_base_url": "",
+    # Coze
+    "model": "coze",
+    "coze_api_base": "https://api.coze.cn/open_api/v2",
+    "coze_api_key": "",
+    "coze_bot_id": "",
 }
 
 
