@@ -39,6 +39,7 @@ class ByteDanceCozeBot(Bot):
                     reply_content["completion_tokens"],
                 )
             )
+            self.sessions.session_reply(reply_content["content"], session_id, reply_content["total_tokens"])
             return Reply(ReplyType.TEXT, reply_content["content"])
         else:
             reply = Reply(ReplyType.ERROR, "Bot不支持处理{}类型的消息".format(context.type))
